@@ -1,0 +1,1866 @@
+/* SECCION HOME */
+
+.home {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* NAVBAR */
+
+#navbar-green {
+    background-color: #1e8756;
+    height: 60px;
+}
+
+nav li {
+    display: inline;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/* MENÚ */
+
+#nav-menu a {
+    width: 125px;
+}
+
+#text-nav {
+    font-family: "Archivo Black";
+    text-decoration: none;
+    color: white;
+}
+
+#icono-user svg {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.logout{
+    font-family: "Archivo Black";
+    text-decoration: none;
+    color: white;
+    margin-bottom: 6px ;
+}
+
+/* OFFCANVAS */
+
+.logo-offcanvas img {
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#navbar1 {
+    width: 300px;
+}
+
+.menu ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.menu ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.menu ul a:hover {
+    opacity: 1;
+}
+
+.list-inline-menu li {
+    font-size: medium;
+}
+
+.submenu ul {
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.submenu ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.submenu ul a:hover {
+    opacity: 1;
+}
+
+.list-inline-submenu li {
+    font-size: small;
+    font-family: "Archivo Narrow";
+    font-weight: bold;
+}
+
+.linea {
+    color: #fa8b0d;
+    width: 180px;
+    height: 30px;
+    border: solid 2px;
+    opacity: 1;
+}
+
+/* CONTENIDO HOME */
+
+/* SOBRE NOSOTROS */
+
+#row-1 {
+    height: auto;
+}
+
+#col-1 {
+    background-color: #cb266b;
+}
+
+.texto-col-1 {
+    font-family: "Archivo Black";
+    color: white;
+}
+
+#col-3 {
+    background-color: #644c9a;
+}
+
+/* ÚLTIMAS NOTICIAS */
+
+.ultimas-noticias h1 {
+    font-family: "Archivo Black";
+    color: black;
+    height: auto;
+}
+
+.linea2 {
+    color: #fa8b0d;
+    width: 450px;
+    height: 30px;
+    border: solid 3px;
+    opacity: 1;
+}
+
+#carrusel {
+    width: full;
+}
+
+/* FOOTER */
+
+#container-footer {
+    background-color: #fa8b0d;
+}
+
+.list-inline-item-submenu a {
+    font-size: 20px;
+}
+
+#col-2-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+#col-1-footer {
+    align-items: end;
+    justify-content: end;
+}
+
+#submenu-footer-texto {
+    text-align: center;
+    align-items: end;
+    justify-content: end;
+}
+
+#submenu-footer-texto li a {
+    font-size: 14px;
+}
+
+#submenu-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#facebook {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+
+#twitter {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+
+#google {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+
+#instagram {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-copyright {
+    text-align: center;
+    font-size: 13px;
+}
+
+/* SECCION NOTICIAS */
+
+.noticias {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO NOTICIAS */
+
+#f-noticias {
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo_noticias {
+    font-family: "Archivo Black";
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-10%, 20%);
+}
+
+.texto-noticias {
+    font-size: 40px;
+}
+
+/* CONTENIDO NOTICIAS */
+
+/* NOTICIAS */
+
+#row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#col-5 {
+    background-color: #f49600;
+}
+
+#col-6 {
+    background-color: #ae4d81;
+}
+
+#fecha-texto {
+    font-family: "Archivo Narrow";
+}
+
+#categoria-texto {
+    font-family: "Archivo Narrow";
+}
+
+#titulo-texto {
+    font-family: "Archivo Narrow";
+}
+
+.descripcion {
+    padding-bottom: 30px;
+}
+
+#descripcion-texto {
+    font-family: "Archivo Narrow";
+}
+
+
+/* SECCION CARTA */
+
+/* HERO CARTA */
+
+#f-carta {
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo_carta {
+    font-family: "Archivo Black";
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(0%, 10%);
+}
+
+.texto-carta {
+    font-size: 30px;
+}
+
+.img-carta{
+    max-height: 500px;
+}
+
+<!-- CONTENIDO CARTA -->
+
+<!--CARTA -->
+
+.carta {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* SECCION LOGIN/REGISTER */
+
+/* HERO LOGIN/REGISTER */
+
+.login-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+/* CONTENIDO LOGIN/REGISTER */
+
+/* FORMULARIO */
+
+.formulario {
+    max-width: 1280px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#row-login {
+    margin-top: 250px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.title-form {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Archivo Black";
+    text-align: left;
+    height: 10px;
+}
+
+.title-form2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Archivo Black";
+    text-align: left;
+    height: 10px;
+}
+
+#email {
+    font-family: "Archivo Narrow";
+}
+
+#password {
+    font-family: "Archivo Narrow";
+}
+
+.t-registrate {
+    font-family: "Archivo Narrow";
+}
+
+#boton-1 {
+    font-family: "Archivo Black";
+    color: white;
+}
+
+#boton-2 {
+    font-family: "Archivo Black";
+    color: white;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    /* border-color: #5543ca; */
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.contact-form .input-text:focus {
+    outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 20;
+    color: gray;
+    /* color: #5543ca; */
+    cursor: text;
+    transition: -webkit-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #fa8b0d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+#boton-1:hover {
+    opacity: 1;
+    background-color: #f59f3c;
+}
+
+#boton-2:hover {
+    opacity: 1;
+    background-color: #f59f3c;
+}
+
+/* SECCION REGISTER */
+
+/* CONTENIDO REGISTER   */
+
+/* FORMULARIO */
+
+
+.formulario-2 {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#row-login {
+    margin-top: 250px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: auto;
+}
+
+#register {
+    font-size: 10px;
+    font-family: "Helvetica";
+}
+
+#titulo-register{
+    margin-bottom: 50px;
+}
+
+#input-nombre{
+    margin-top: 50px;
+}
+
+#registrate{
+    text-decoration: none;
+}
+
+.contact-form-2 .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+.contact-form-2 .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.contact-form-2 .input-text:focus {
+    outline: none;
+}
+.contact-form-2 .input-text:focus + .label,
+.contact-form-2 .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+.contact-form-2 .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 10px;
+    line-height: 26px;
+    font-weight: 20;
+    color: gray;
+    cursor: text;
+    transition: -webkit-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-form-2 .submit-btn {
+    display: inline-block;
+    background-color: #fa8b0d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.contact-form-2 row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boton-3 {
+    color: white;
+    text-align: center;
+}
+
+#boton-3:hover {
+    opacity: 1;
+    background-color: #f59f3c;
+}
+
+
+/* SECCION CONTACTO */
+
+.contacto {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO CONTACTO */
+
+#f-contacto {
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo_contacto {
+    font-family: "Archivo Black";
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    transform: translate(0%, 10%);
+}
+
+.texto-contacto {
+    font-size: 20px;
+}
+
+/* CONTENIDO CONTACTO */
+
+/* CONTACTO */
+
+.contenido-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.reserva {
+    margin-top: 100px;
+}
+
+.reserva h1 {
+    font-family: "Archivo Black";
+    font-size: 48px;
+}
+
+.texto-reserva {
+    font-family: "Archivo Narrow";
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.tel-reserva {
+    font-family: "Archivo Black";
+    font-size: 16px;
+    color: #fa8b0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.ubicacion h1 {
+    font-family: "Archivo Black";
+    font-size: 48px;
+}
+
+.texto-ubicacion {
+    font-family: "Archivo Narrow";
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.tex-ubicacion {
+    font-family: "Archivo Black";
+    font-size: 16px;
+    color: #fa8b0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-3 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.horarios h1 {
+    font-family: "Archivo Black";
+    font-size: 48px;
+}
+
+.tex-horarios h3 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+
+.det-horarios {
+    padding: 50px;
+}
+
+.det-horarios h3 {
+    font-family: "Archivo Black";
+    font-size: 16px;
+    color: #fa8b0d;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+
+/* SECCION NOTICIAS */
+
+.noticias {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO NOTICIAS */
+
+#f-noticias {
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo_noticias {
+    font-family: "Archivo Black";
+    color: white;
+    position: absolute;
+    top: 68%;
+    left: 75%;
+    transform: translate(-10%, 20%);
+}
+
+.img-noticias{
+    max-height: 500px;
+}
+
+.texto-noticias {
+    font-size: 40px;
+}
+
+.buscador{
+    padding-right: 120px;
+}
+
+.linea3 {
+    color: #fa8b0d;
+    width: 1200px;
+    height: 30px;
+    border: solid 2px;
+    opacity: 1;
+    margin: auto;
+}
+
+
+/* NOTICIAS */
+
+#row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#col-5 {
+    background-color: #f49600;
+}
+
+#col-6 {
+    background-color: #ae4d81;
+}
+
+#fecha-texto {
+    font-family: "Archivo Narrow";
+}
+
+#categoria-texto {
+    font-family: "Archivo Narrow";
+}
+
+#titulo-texto {
+    font-family: "Archivo Narrow";
+}
+
+.descripcion {
+    padding-bottom: 30px;
+}
+
+#descripcion-texto {
+    font-family: "Archivo Narrow";
+}
+
+.submit-btn {
+    display: inline-block;
+    background-color: #fa8b0d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#boton-4 {
+    font-family: "Archivo Black";
+    color: white;
+    text-align: center;
+}
+
+#boton-4:hover {
+    opacity: 1;
+    background-color: #f59f3c;
+}
+
+
+/* SECCION DETALLE_NOTICIAS */
+
+.detalle-noticias {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO DETALLE_NOTICIAS */
+
+/* CONTENIDO DETALLE_NOTICIAS */
+
+/* DETALLE_NOTICIAS  */
+
+#col-7 {
+    background-color: #ae4d81;
+}
+
+.linea4 {
+    color: #fa8b0d;
+    width: 1000px;
+    height: 30px;
+    border: solid 2px;
+    opacity: 1;
+    margin: auto;
+    margin-left: 30px;
+}
+/* COMENTARIOS DETALLE_NOTICIAS */
+
+.comentarios {
+    margin: 20px 0;
+}
+
+.form_comentarios textarea {
+    width: 100%;
+    height: 64px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    line-height: 30px;
+    border: 1px solid #1e8756;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.form_comentarios .btn {
+    background: #1e8756;
+    font-size: 16px;
+    border-radius: 0;
+    color: white;
+    margin-bottom: 20px;
+    font-family: "Archivo Black";
+}
+
+.form_comentarios .btn:hover {
+    box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.35);
+}
+
+.media {
+    border-top: 1px solid #f49600;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.media .nombre {
+    color: #1e8756;
+    margin-bottom: 0;
+    font-family: "Archivo Narrow";
+}
+
+.media .nombre span {
+    font-size: 12px;
+    color: #464646;
+    margin-left: 10px;
+    font-family: "Archivo Narrow";
+}
+
+.media .comentario {
+    margin-top: 10px;
+    font-family: "Archivo Narrow";
+}
+
+.media .botones {
+    margin-bottom: 10px;
+    font-family: "Archivo Narrow";
+}
+
+.media .botones a {
+    color: #acacac;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+
+
+/* SECCION JUEGOS */
+
+.juegos {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO JUEGOS */
+
+#f-juegos {
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+
+.fondo-detalle-juegos .imagen-juegos {
+    width: 100vw;
+    height: auto;
+}
+
+.titulo_juegos {
+    font-family: "Archivo Black";
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(0%, 10%);
+}
+
+.texto-juegos {
+    font-size: 30px;
+}
+
+/* CONTENIDO JUEGOS */
+
+/* JUEGOS */
+
+.f-juegos-2 {
+    background-color: #b2c2e2;
+    margin-top: 40px;
+}
+
+#lista-juegos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-juegos {
+    height: 171px;
+    width: 278px;
+    object-fit: cover;
+}
+
+.t-juegos {
+    text-align: center;
+
+}
+
+
+
+/* SECCION DETALLE_JUEGOS */
+
+.detalle-juegos {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* HERO DETALLE_JUEGOS */
+
+#f-detalle-juegos {
+    position: relative;
+    overflow: hidden;
+}
+
+.imagen-juegos{
+    max-height: 500px;
+}
+
+/* CONTENIDO DETALLE_JUEGOS */
+
+
+/* DETALLE_JUEGOS */
+
+#row-2 {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo-detalle-juegos {
+    font-family: "Archivo Black";
+    font-size: 80px;
+    margin-bottom: 80px;
+}
+
+#max-jugadores-texto {
+    font-family: "Archivo Black";
+}
+
+#min-jugadores-texto {
+    font-family: "Archivo Black";
+}
+
+#tiempo-juego-texto{
+    font-family: "Archivo Black";
+}
+
+#descripccion-juego {
+    font-family: "Archivo Black";
+    margin-top: 60px;
+}
+
+.texto-detalle-juegos{
+    font-family: Archivo Narrow;
+}
+
+#reglas-juego {
+    font-family: "Archivo Black";
+}
+
+.reglas-juego {
+    font-family: Archivo Narrow;
+    padding-bottom: 30px;
+}
+
+.favorito-btn{
+    padding-bottom: 50px;
+}
+
+
+
+/* SECCION PERFIL_USUARIO */
+
+/* HERO PERFIL_USUARIO */
+
+.perfil-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: "Archivo Black";
+}
+
+/* CONTENIDO PERFIL_USUARIO */
+
+/* DATOS PERFIL_USUARIO */
+
+.submit-btn-5 {
+    display: inline-block;
+    background-color: #fa8b0d;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#boton-5 {
+    font-family: "Archivo Black";
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#boton-5:hover {
+    opacity: 1;
+    background-color: #f59f3c;
+}
+
+
+#boton-5 {
+    font-family: "Archivo Black";
+    color: white;
+}
+
+.titulo-perfil-usuario{
+    font-family: "Archivo Black";
+}
+
+.t-perfil-usuario{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* IMAGEN PERFIL_USUARIO */
+
+.img-perfil-usuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+
+/*SECCIÓN PAGINACIÓN*/
+
+.pagination-container {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.pagination-container .pagination {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination-container .pagination li {
+    margin: 0 5px;
+}
+
+.pagination-container .pagination li a {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination-container .pagination .active a {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.pagination .page-link {
+    border: none;
+}
+
+
+/*SECCIÓN CARRUSEL*/
+
+.carousel-image {
+    object-fit: cover; /* Ajustar la imagen proporcionalmente dentro de su contenedor */
+    max-height: 300px; /* Establecer una altura máxima para las imágenes */
+}
+
+.carousel-container {
+    height: 300px; /* Establecer una altura fija para el contenedor del carrusel */
+    overflow: hidden; /* Ocultar el contenido que exceda la altura fija */
+}
+
+
+
+
+
+
+/* MEDIAQUERIES */
+
+@media (max-width: 493px) and (min-width: 304px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .texto-noticias {
+        font-size: 30px;
+    }
+
+    #f-noticias {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_noticias {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-60%, -70%);
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 250px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .texto-juegos {
+        font-size: 30px;
+    }
+
+    #f-juegos {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_juegos {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-45%, -70%);
+    }
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .texto-carta {
+        font-size: 30px;
+    }
+
+    #f-carta {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_carta {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 80%;
+        transform: translate(-45%, -70%);
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .texto-contacto {
+        font-size: 25px;
+    }
+
+    #f-contacto {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_contacto {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 95%;
+        left: 80%;
+        transform: translate(-60%, -70%);
+    }
+
+    /* CONTENIDO CONTACTO */
+
+    /* CONTACTO */
+
+    .reserva h1 {
+        font-family: "Archivo Black";
+        font-size: 20px;
+    }
+
+    .ubicacion h1 {
+        font-family: "Archivo Black";
+        font-size: 20px;
+    }
+
+    .horarios h1 {
+        font-family: "Archivo Black";
+        font-size: 20px;
+    }
+
+    /* SECCION DETALLE_NOTICIAS */
+
+    /* DETALLE_NOTICIAS */
+
+    .linea4 {
+        color: #fa8b0d;
+        width: 200px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px) and (min-width: 492px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .texto-noticias {
+        font-size: 35px;
+    }
+
+    #f-noticias {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_noticias {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-40%, -40%);
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 350px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .texto-juegos {
+        font-size: 35px;
+    }
+
+    #f-juegos {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_juegos {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-40%, -40%);
+    }
+
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .texto-carta {
+        font-size: 35px;
+    }
+
+    #f-carta {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_carta {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-40%, -40%);
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .texto-contacto {
+        font-size: 35px;
+    }
+
+    #f-contacto {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_contacto {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 70%;
+        transform: translate(-40%, -40%);
+    }
+
+    /* CONTENIDO CONTACTO */
+
+    /* CONTACTO */
+
+    .reserva h1 {
+        font-family: "Archivo Black";
+        font-size: 30px;
+    }
+
+    .ubicacion h1 {
+        font-family: "Archivo Black";
+        font-size: 30px;
+    }
+
+    .horarios h1 {
+        font-family: "Archivo Black";
+        font-size: 30px;
+    }
+
+
+    /* SECCION DETALLE_NOTICIAS */
+
+    /* DETALLE_NOTICIAS */
+
+    .linea4 {
+        color: #fa8b0d;
+        width: 320px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+
+}
+
+@media (max-width: 992px) and (min-width: 576px) {
+
+    /* CONTENIDO HOME */
+
+    /* ÚLTIMAS NOTICIAS */
+
+    .linea2 {
+        color: #fa8b0d;
+        width: 400px;
+        height: 30px;
+        border: solid 3px;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .texto-noticias {
+        font-size: 40px;
+    }
+
+    #f-noticias {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_noticias {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-45%, -30%);
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 400px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .texto-juegos {
+        font-size: 40px;
+    }
+
+    #f-juegos {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_juegos {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-45%, -20%);
+    }
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .texto-carta {
+        font-size: 40px;
+    }
+
+    #f-carta {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_carta {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 85%;
+        transform: translate(-45%, -20%);
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .texto-contacto {
+        font-size: 40px;
+    }
+
+    #f-contacto {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_contacto {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 85%;
+        left: 75%;
+        transform: translate(-45%, -30%);
+    }
+
+    /* SECCION DETALLE_NOTICIAS */
+
+    /* DETALLE_NOTICIAS */
+
+    .linea4 {
+        color: #fa8b0d;
+        width: 400px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .texto-noticias {
+        font-size: 45px;
+    }
+
+    #f-noticias {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_noticias {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-25%, 10%);
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 600px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .texto-juegos {
+        font-size: 45px;
+    }
+
+    #f-juegos {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_juegos {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 75%;
+        transform: translate(-25%, 10%);
+    }
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .texto-carta {
+        font-size: 45px;
+    }
+
+    #f-carta {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_carta {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 75%;
+        left: 80%;
+        transform: translate(-25%, 10%);
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .texto-contacto {
+        font-size: 45px;
+    }
+
+    #f-contacto {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .titulo_contacto {
+        font-family: "Archivo Black";
+        color: white;
+        position: absolute;
+        top: 80%;
+        left: 70%;
+        transform: translate(-25%, 10%);
+    }
+
+    /* SECCION DETALLE_NOTICIAS */
+
+    /* DETALLE_NOTICIAS */
+
+    .linea4 {
+        color: #fa8b0d;
+        width: 600px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    /* CONTENIDO HOME */
+
+    /* SOBRE NOSOTROS */
+    .texto-col-1 {
+        font-family: "Archivo Black";
+        color: white;
+        display: block;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    }
+
+    .sobre-nosotros {
+        font-size: 64px;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+
+    #col-1 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* ÚLTIMAS NOTICIAS */
+
+    .linea2 {
+        color: #fa8b0d;
+        width: 750px;
+        height: 30px;
+        border: solid 3px;
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .titulo_noticias {
+        left: 70%;
+    }
+
+    .texto-noticias {
+        font-size: 60px;
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 800px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .titulo_juegos {
+        left: 70%;
+    }
+
+    .texto-juegos {
+        font-size: 60px;
+    }
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .titulo_carta {
+        left: 75%;
+    }
+
+    .texto-carta {
+        font-size: 60px;
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .titulo_contacto {
+        left: 60%;
+        top: 80%;
+    }
+
+    .texto-contacto {
+        font-size: 60px;
+    }
+
+    /* SECCION DETALLE_NOTICIAS */
+
+    /* DETALLE_NOTICIAS */
+
+    .linea4 {
+        color: #fa8b0d;
+        width: 800px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1400px) and (min-width: 1200px) {
+    /* SECCION NOTICIAS */
+
+    /* HERO NOTICIAS */
+
+    .titulo_noticias {
+        left: 65%;
+    }
+
+    .texto-noticias {
+        font-size: 80px;
+    }
+
+    /* CONTENIDO NOTICIAS */
+
+    /* BUSCADOR NOTICIAS */
+
+    .linea3 {
+        color: #fa8b0d;
+        width: 1000px;
+        height: 30px;
+        border: solid 2px;
+        opacity: 1;
+        margin: auto;
+    }
+
+
+
+    /* SECCION JUEGOS */
+
+    /* HERO JUEGOS */
+
+    .titulo_juegos {
+        left: 65%;
+    }
+
+    .texto-juegos {
+        font-size: 80px;
+    }
+
+    /* SECCION CARTA */
+
+    /* HERO CARTA */
+
+    .titulo_carta {
+        left: 70%;
+    }
+
+    .texto-carta {
+        font-size: 80px;
+    }
+
+    /* SECCION CONTACTO */
+
+    /* HERO CONTACTO */
+
+    .titulo_contacto {
+        left: 60%;
+        top: 80%;
+    }
+
+    .texto-contacto {
+        font-size: 80px;
+    }
+
+    /* FOOTER */
+
+    #iconos-rss {
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #submenu-footer-texto {
+        text-align: left;
+    }
+}
