@@ -9,7 +9,7 @@
 
 <section class="perfil-usuario">
     <div>
-        <h1>AURORA TEJADA CORDÓN</h1>
+        <h1><?=$user->nombre?> <?=$user->apellidos?></h1>
     </div>
 </section>
 
